@@ -114,21 +114,16 @@ const HomeScreen = ({navigation}) => {
             fontWeight: 'bold',
             color: '#333',
           }}>
-          Recently Viewed
+         Order Now !
         </Text>
-        <View style={styles.card}>
-          <View style={styles.cardImgWrapper}>
+        <View style={styles.orderbutton}>
+          <View style={styles.orderbuttonImgWrapper}>
             <Image
-              source={require('../assets/banners/food-banner2.jpg')}
+              source={require('https://docs.google.com/forms/d/e/1FAIpQLSd11TTMs11I0441e9Uk930ryk9TwxgKY8uxz6jDM27Kygq8hA/viewform?usp=sf_link ' )}
               resizeMode="cover"
-              style={styles.cardImg}
+              style={styles.orderbuttonImg}
             />
-          </View>
-          <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
-            <StarRating ratings={4} reviews={99} />
-            <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+           Recently Viewed
             </Text>
           </View>
         </View>
